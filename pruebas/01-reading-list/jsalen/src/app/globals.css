@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #111;
+  --color: #dfdfdf;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #111;
+    --color: #dfdfdf;
+  }
+}
+
+body {
+  color: var(--color);
+  background: var(--background);
+}
